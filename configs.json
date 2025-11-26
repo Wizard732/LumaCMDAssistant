@@ -1,0 +1,29 @@
+{
+  "name": ["Лум", "Лим", "Лем", "Лумс", "Lum", "Luma", "Lumas", "Лума"],
+  "command": [
+    "Включи",
+    "Выключи",
+    "Запусти",
+    "Закрой",
+    "Отключи",
+    "Выйди",
+    "Открой",
+    "Ливни"
+  ],
+  "apps": {
+    "steam": "C:\\Program Files (x86)\\Steam\\steam.exe",
+    "стим": "C:\\Program Files (x86)\\Steam\\steam.exe",
+    "браузер": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+    "хром": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "дискорд": "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord\\app-1.0.9214\\Discord.exe",
+    "discord": "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord\\app-1.0.9214\\Discord.exe",
+    "telegram": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe",
+    "телеграм": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe",
+    "спотифи": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
+    "спотифай": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
+    "кс": "steam://rungameid/730",
+    "кс го": "steam://rungameid/730",
+    "вар тандер": "steam://rungameid/236390",
+    "war thunder": "steam://rungameid/236390"
+  }
+}

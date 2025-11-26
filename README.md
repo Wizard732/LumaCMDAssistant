@@ -1,54 +1,51 @@
-Luma — это простой голосовой ассистент на Python, который позволяет запускать приложения, открывать сайты и выполнять базовые команды с помощью текстового ввода.
+Luma is a simple voice assistant written in Python that allows you to launch applications, open websites, and execute basic commands using text input.
 
-Функции
+Features
 
-Запуск приложений (Steam, Discord, Telegram, Spotify и др.)
+Launch applications (Steam, Discord, Telegram, Spotify, etc.)
 
-Быстрый доступ к YouTube
+Quick access to YouTube
 
-Выключение и перезагрузка компьютера
+Shut down and restart your computer
 
-Закрытие приложений (например, CS:GO, Discord)
+Close applications (e.g., CS:GO, Discord)
 
-Настраиваемые команды и имена ассистента
+Customizable commands and assistant names
 
-Установка
+Installation
 
-Клонируйте репозиторий
+Clone the repository
 
 git clone https://github.com/ваш-репозиторий/Luma.git
 
-
-Установите библиотеки
+Install libraries
 
 pip install pyttsx3 fuzzywuzzy python-Levenshtein pyautogui
 
+Before running, change the paths to applications in the Luma.py file for your computer. For example:
 
-Перед запуском измените пути к приложениям в файле Luma.py под ваш компьютер. Например:
+“steam”: r“C:\Program Files (x86)\Steam\steam.exe”
 
-"steam": r"C:\Program Files (x86)\Steam\steam.exe"
+If the path is different on your PC, replace it with the correct one.
 
-
-Если путь отличается на вашем ПК замените его на правильный
-
-Запустите ассистента:
+Run the assistant:
 
 python Luma.py
 
-Использование
+Usage
 
-Вводите команду в консоли или через GUI
+Enter the command in the console or via the GUI.
 
-Лум включи Steam
-Лум открой YouTube
+Lum, turn on Steam. Lum, open YouTube.
 
+The “disconnect” command terminates the assistant.
 
-Команда "отключись" завершает работу ассистента
+You can use the buttons in the GUI to quickly launch applications.
 
-Можно использовать кнопки в GUI для быстрого запуска приложений
+Notes
 
-Примечания
+Be sure to adjust the path to the applications for your computer.
 
-Путь к приложениям обязательно корректируйте под свой компьютер
+Works on Windows.
 
-Работает на Windows
+Translated with DeepL.com (free version)
