@@ -6,11 +6,31 @@ from shutdown import shutdown, restart
 from pyautogui import hotkey
 import json
 
+<<<<<<< HEAD
 # Загрузка JSON
 with open("configs.json", "r", encoding="utf-8") as f:
     ops = json.load(f)
 
 apps = ops["apps"]
+=======
+# TODO:
+# General comments:
+# 1) Move "opps" to a separate json file with name "configs.json" and read these configs from here. Do not aks user actually to modify the code (bad practice because User can accidentally break the code).
+# 2) Transalte everything to English
+# 3) Create "requirements.txt" file and use it to install all required dependencies.
+# 4) Use virtual envs in Python
+# 5) Translate README.md to English as well
+
+
+
+opps = {
+    "name":{"Лум","Лим","Лем","Лумс","Lum","Luma","Lumas","Лума",},
+    "command":{"Включи","Выключи","Запусти","Закрой","Отключи","Выйди","Открой","Ливни",},
+    "apps": {
+      # TODO: If User should modify only these "apps" section then move only this section to "configs.json"
+        "steam": r"C:\Program Files (x86)\Steam\steam.exe",
+        "стим": r"C:\Program Files (x86)\Steam\steam.exe",
+>>>>>>> 65841123ce7c87a539f014b33417795c51788c54
 
 # Вывод всех приложений
 for name, path in apps.items():
@@ -46,10 +66,16 @@ def StartProgram(cmd):
 def TryExecuteCommand(cmd):
     text = cmd.lower().strip()
 
+<<<<<<< HEAD
     if "комп'ютер" in text:
         speak("Выключаю!")
         shutdown()
         return True
+=======
+# TODO: rename to "TryExecuteCommand" for more obvious function purpose
+def Command(cmd):
+      text = cmd.lower().strip()
+>>>>>>> 65841123ce7c87a539f014b33417795c51788c54
 
     if "перезапусти комп'ютер" in text:
         speak("Перезапускаю!")
